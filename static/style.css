@@ -1,0 +1,26 @@
+:root {
+  --ink: #1b2a33;
+  --paper: #f4f7f6;
+  --line: #d6dfdc;
+  --accent: #17605c;
+  --accent-dark: #0f4845;
+  --alert: #b3261e;
+}
+body { font-family: "IBM Plex Sans", system-ui, sans-serif; color: var(--ink); background: var(--paper); }
+.site-header { background: var(--accent); color: #fff; padding: 1.4rem 0; }
+.site-header h1 { font-size: 1.6rem; font-weight: 600; margin: 0; }
+.site-header p { margin: .2rem 0 0; opacity: .85; }
+.panel { background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 1.25rem; }
+.panel h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 1rem; }
+#list-title { margin-bottom: 0; }
+.btn-primary { background: var(--accent); border-color: var(--accent); }
+.btn-primary:hover, .btn-primary:focus { background: var(--accent-dark); border-color: var(--accent-dark); }
+.form-control:focus, .form-select:focus { border-color: var(--accent); box-shadow: 0 0 0 .2rem rgba(23, 96, 92, .2); }
+.form-control.is-invalid { border-color: var(--alert); }
+.invalid-feedback { color: var(--alert); }
+table th { font-weight: 600; font-size: .85rem; white-space: nowrap; border-bottom: 2px solid var(--line); }
+table td { font-size: .9rem; vertical-align: top; }
+table th small { font-weight: 400; color: #5b6b73; }
+td.remarks { min-width: 260px; max-width: 360px; }
+td.actions { white-space: nowrap; }
+tr.editing { background: #e8f2f0; }
